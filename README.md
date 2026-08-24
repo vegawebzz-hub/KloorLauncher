@@ -11,7 +11,7 @@ The newest build in this repository is:
 - `KloorLauncher-1.1.0.exe`
 - Platform: Windows 10/11, 64-bit
 - Type: portable application — installation is not required
-- SHA-256: `308AD65019C8DF390DE07190D6FC446D0C814DB9473D64EE00122DDEE0453378`
+- SHA-256: `383D3D993889BE8BC269E8D662D161F3C24278B86D98E442283A43FDE147F471`
 
 ## Features
 
