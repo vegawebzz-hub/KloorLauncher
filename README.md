@@ -2,14 +2,16 @@
 
 KloorLauncher is a Windows launcher for **Minecraft: Java Edition**. It provides one place to manage Minecraft installations, mods, modpacks, servers, resource packs, Java settings, and launch options.
 
+**NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.**
+
 ## Download
 
 The newest build in this repository is:
 
-- `KloorLauncher-1.0.6.exe`
+- `KloorLauncher-1.1.0.exe`
 - Platform: Windows 10/11, 64-bit
 - Type: portable application — installation is not required
-- SHA-256: `CB7A288AA2397D9BDECAB01B9A409774D66600C29E1F0C4ABBC006C580C4C10D`
+- SHA-256: `308AD65019C8DF390DE07190D6FC446D0C814DB9473D64EE00122DDEE0453378`
 
 ## Features
 
@@ -22,10 +24,13 @@ The newest build in this repository is:
 - Microsoft account authentication
 - Verified offline single-player after a successful ownership check
 - Kloor-themed Windows interface
+- Optional Kloor Credits ledger and fixed-price launcher-theme shop foundation
+- Separate adult advertising consent and shop-rule acceptance
+- Legal, privacy, and unofficial-product notices inside the launcher
 
 ## Getting started
 
-1. Download `KloorLauncher-1.0.6.exe`.
+1. Download `KloorLauncher-1.1.0.exe`.
 2. Open the file.
 3. Sign in with the Microsoft account that owns Minecraft: Java Edition.
 4. Create or select an installation.
@@ -45,7 +50,11 @@ Java may be required depending on the selected Minecraft version. Use a trusted 
 - Online play requires a valid Microsoft account and Minecraft: Java Edition license.
 - Microsoft sign-in may return error `403` until the launcher registration is approved for Minecraft Services.
 - This build is currently unsigned, so Windows SmartScreen may display a warning. Code signing or Microsoft Store distribution is planned.
+- Live rewarded ads are intentionally disabled until an approved Windows/Electron provider, publisher HTTPS API, provider contract, and legal review are complete.
+- Social, rewards, and shop services need the publisher API; Minecraft installation and launch features remain independent.
 - Only download builds from this repository and compare the SHA-256 checksum when possible.
+
+Read the [Privacy Notice](docs/PRIVACY.md), [Terms of Service](docs/TERMS.md), [Reward & Shop Rules](docs/REWARDS.md), and [release checklist](docs/LEGAL-CHECKLIST.md).
 
 ## Reporting problems
 
