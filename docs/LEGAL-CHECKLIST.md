@@ -6,6 +6,7 @@ Reward advertising must remain disabled until every blocking item is complete.
 
 - [ ] Register the appropriate Estonian business/tax structure and declare advertising revenue.
 - [ ] Add the legal name, postal address, private privacy email, and support channel to every policy and Store listing.
+- [ ] Publish immutable HTTPS copies of every accepted policy version; do not bind production consent records to mutable `main` branch URLs.
 - [ ] Obtain qualified Estonian/EU legal review of the Privacy Notice, Terms, Reward Rules, consumer information, and retention schedule.
 - [ ] Publish an accessible account deletion/export process and complaints/appeal process.
 
@@ -28,6 +29,7 @@ Reward advertising must remain disabled until every blocking item is complete.
 
 ## Distribution and operations
 
+- [ ] Make `npm run validate:release` pass; the release workflow deliberately blocks legal placeholders, a missing publisher HTTPS API, version mismatches, and unsafe artifact configuration.
 - [ ] Deploy the Kloor API and PostgreSQL behind publisher-controlled HTTPS; do not use a user's localhost database for public balances.
 - [ ] Configure production secrets, provider keys, TLS, backups, monitoring, rate-limit storage, and secret rotation.
 - [ ] Sign Windows executables or distribute through Microsoft Store.

@@ -8,10 +8,10 @@ KloorLauncher is a Windows launcher for **Minecraft: Java Edition**. It provides
 
 The newest build in this repository is:
 
-- `KloorLauncher-1.2.0.exe`
+- `KloorLauncher-1.2.1.exe`
 - Platform: Windows 10/11, 64-bit
 - Type: portable application — installation is not required
-- SHA-256: `c13a43e3b8707973fb5308ebfe77bb7e79eaa289b5b0364d85c54d978df0ca51`
+- SHA-256: `8c63961a09bd90d771ac0fb1f3a93aeba2c047b9b565a26ddc9c5fe99cbe9d9c`
 
 ## Features
 
@@ -20,6 +20,7 @@ The newest build in this repository is:
 - Mods, modpacks, servers, and resource-pack management
 - Automatic checksum-verified Java 8, 16, 17, and 21 runtimes
 - Modrinth mod and `.mrpack` support with dependency and conflict checks
+- Integrity-checked KloorCore auto-install for compatible Fabric 1.21.1 profiles
 - Installation repair, world backups, and local crash analysis
 - Favorite servers with automatic latency refresh
 - English and Estonian interface
@@ -34,7 +35,7 @@ The newest build in this repository is:
 
 ## Getting started
 
-1. Download `KloorLauncher-1.2.0.exe`.
+1. Download `KloorLauncher-1.2.1.exe`.
 2. Open the file.
 3. Sign in with the Microsoft account that owns Minecraft: Java Edition.
 4. Create or select an installation.
