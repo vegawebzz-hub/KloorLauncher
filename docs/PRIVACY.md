@@ -1,23 +1,59 @@
 # Privacy Notice
 
-> **Release blocker:** replace `[LEGAL NAME]`, `[POSTAL ADDRESS]`, and `[PRIVACY EMAIL]`, name every hosting and advertising processor, verify retention, and obtain legal review before public commercial distribution.
+> **Release blocker:** before public distribution, replace `[LEGAL NAME]`, `[POSTAL ADDRESS]`, and `[PRIVACY EMAIL]`, name every hosting and advertising processor, confirm retention periods, and obtain a qualified legal review.
 
 **Controller:** [LEGAL NAME], [POSTAL ADDRESS]  
 **Privacy contact:** [PRIVACY EMAIL]  
 **Version:** 2026-08-24
 
-KloorLauncher is an unofficial Minecraft: Java Edition launcher. Microsoft sign-in occurs in the system browser. Microsoft refresh tokens and Minecraft access tokens are encrypted on the user's Windows device and are not stored in the Kloor database.
+KloorLauncher is an unofficial Minecraft: Java Edition launcher. This notice covers the launcher, the Kloor API, optional social features, and the optional Kloor Credits reward system.
 
-The optional Kloor API stores the verified Minecraft UUID, username, optional public skin/cape URLs, settings, session identifiers, friendships, privacy preferences, Kloor Credits ledger, purchases, shop agreements, and launcher-cosmetic entitlements. If an adult explicitly enables rewards, it also stores consent and provider-policy versions, random short-lived ad-session identifiers, and completion status. Security logs may contain timestamps, request IDs, routes, statuses, and redacted diagnostics; passwords and tokens must not be logged.
+## Data we process
 
-KloorLauncher must never send Microsoft/Xbox tokens, Minecraft UUIDs, gamertags, profiles, friends, or server activity to an advertising provider. An approved provider may receive only a random reward-session token needed for signed server-to-server verification.
+- Microsoft sign-in happens in the system browser. Microsoft refresh tokens and Minecraft access tokens stay encrypted on the user's Windows device and are not stored in the Kloor database.
+- The Kloor API stores the verified Minecraft UUID, username, optional public skin/cape URLs, account settings, session identifiers, friend relationships, and privacy preferences.
+- If an adult explicitly enables rewards, the API stores the policy and provider-consent versions and time, random ad-session identifiers, completion status, Kloor Credits ledger, purchases, shop-agreement versions, and owned launcher cosmetics.
+- Security logs may contain timestamps, request identifiers, route names, status codes, and redacted diagnostic data. Passwords and authentication tokens must not be logged.
 
-Processing is used to deliver requested service functions, prevent fraud, keep an auditable virtual-credit ledger, meet legal obligations, and—only with separate consent—start one optional non-personalized rewarded ad. Refusal or withdrawal does not remove core login, installation, download, or launch features. Ads are unavailable to users under 18 and no ad SDK or identifier may load before consent.
+KloorLauncher does not send Microsoft/Xbox tokens, Minecraft UUIDs, gamertags, friend data, or profile data to an advertising provider. A provider may receive only a random, short-lived reward-session token required for server-to-server completion verification.
 
-Data is shared only as needed with Microsoft/Mojang authentication services, named infrastructure processors, and an expressly approved provider. International transfers require documented safeguards. KloorLauncher does not sell personal data.
+## Purposes and legal bases
 
-Encrypted local authentication data remains until logout or local data removal. Active account, inventory, and ledger data remain while the account is active. The planned limits are 30 days for expired/revoked sessions, 90 days for incomplete ad sessions and routine logs, and up to 24 months for limited ledger evidence needed for fraud disputes or legal claims. The controller must verify these periods before launch.
+- **Contract/service:** authenticate licensed users, launch Minecraft, preserve settings, and deliver requested social or shop functions.
+- **Consent:** start an optional rewarded advertisement. Consent is separate from Microsoft sign-in, can be refused without losing core launcher functions, and can be withdrawn as easily as it is accepted.
+- **Legitimate interests:** prevent fraud, secure accounts, diagnose failures, and keep an auditable virtual-credit ledger, balanced against user rights.
+- **Legal obligation:** retain or disclose limited records when applicable law requires it.
 
-Users may request access, correction, export, restriction, objection, deletion, or consent withdrawal at [PRIVACY EMAIL]. EU users may complain to their national authority; in Estonia this is the Andmekaitse Inspektsioon. Material provider, purpose, or policy-version changes require fresh consent.
+No advertising identifier or SDK may run before valid consent. Personalized advertising is disabled. Reward advertising is unavailable to users under 18.
 
-Tokens are isolated from the renderer, encrypted with Windows secure storage, and redacted from logs. The API validates live sessions, scopes queries to the authenticated user, rate-limits requests, verifies callbacks cryptographically, and records credit changes in an append-only ledger.
+## Sharing and transfers
+
+Data is shared only as necessary with Microsoft/Mojang authentication services, the selected hosting/database processors, and an advertising provider that has expressly approved the Windows/Electron rewarded flow. The final provider and its privacy notice must be named here before ads are enabled. International transfers require a documented lawful safeguard.
+
+KloorLauncher does not sell personal data.
+
+## Retention
+
+- Encrypted local authentication data remains until logout or local application data is removed.
+- Active profile, settings, inventory, and ledger data remain while the account is active.
+- Expired or revoked API sessions are deleted within 30 days.
+- Incomplete ad sessions and routine security logs are deleted or anonymized within 90 days unless needed to investigate abuse.
+- After a verified deletion request, personal data is deleted or anonymized without undue delay. Limited ledger evidence may be retained for up to 24 months only when necessary for fraud disputes or legal claims.
+
+The controller must verify these periods against its actual infrastructure and legal obligations before launch.
+
+## User rights
+
+Depending on applicable law, users may request access, correction, export, restriction, objection, or deletion and may withdraw consent at any time. Requests go to [PRIVACY EMAIL]. Identity may be verified without asking for a password or token. EU users may complain to their national authority; in Estonia this is the Andmekaitse Inspektsioon.
+
+## Children
+
+The launcher may have younger users, but rewarded advertising is restricted to adults who confirm they are at least 18. KloorLauncher does not knowingly profile children for advertising. Core login, download, and play features must remain available without ads.
+
+## Security
+
+Tokens are isolated from the renderer, encrypted with Windows secure storage, and redacted from logs. The API validates live sessions, scopes every query to the authenticated user, rate-limits requests, verifies provider callbacks cryptographically, and records virtual-credit changes in an append-only ledger. No system is perfectly secure; report suspected incidents privately to [PRIVACY EMAIL].
+
+## Changes
+
+Material changes are shown before they take effect. A new consent is required whenever the configured provider version, advertising purpose, or applicable policy version changes.
