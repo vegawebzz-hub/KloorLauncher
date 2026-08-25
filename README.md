@@ -8,10 +8,10 @@ KloorLauncher is a Windows launcher for **Minecraft: Java Edition**. It provides
 
 The newest build in this repository is:
 
-- `KloorLauncher-1.2.1.exe`
+- `KloorLauncher-1.3.1.exe`
 - Platform: Windows 10/11, 64-bit
-- Type: portable application — installation is not required
-- SHA-256: `8c63961a09bd90d771ac0fb1f3a93aeba2c047b9b565a26ddc9c5fe99cbe9d9c`
+- Type: Windows installer
+- SHA-256: `71a847cbb33a40ad6444f797495251898c824a22bf3152c3196aa0ae82d9c7f1`
 
 ## Features
 
@@ -22,7 +22,20 @@ The newest build in this repository is:
 - Modrinth mod and `.mrpack` support with dependency and conflict checks
 - Integrity-checked KloorCore auto-install for compatible Fabric 1.21.1 profiles
 - Installation repair, world backups, and local crash analysis
+- Safe Mode, automatic world backups, installation snapshots, and rollback
+- Hardware-aware Low, Balanced, and High performance profiles
+- Managed mod conflict checks and safe update-all with rollback
+- Pausable, resumable, cancellable, and speed-limited downloads
+- Storage analysis and exact duplicate cleanup
+- Portable Kloor modpack export
 - Favorite servers with automatic latency refresh
+- Server version compatibility warnings and recent join history
+- Live friend status with automatic reconnect
+- One-click friend joining with compatibility checks
+- Multiple securely stored Microsoft accounts
+- Local screenshot manager and launch/session performance statistics
+- Optional end-to-end encrypted settings and profile-preset sync
+- Built-in What's New page
 - English and Estonian interface
 - Adjustable RAM and download settings
 - Launch and download progress
@@ -30,16 +43,18 @@ The newest build in this repository is:
 - Verified offline single-player after a successful ownership check
 - Kloor-themed Windows interface
 - Optional Kloor Credits ledger and fixed-price launcher-theme shop foundation
+- Password-protected Kloor users with salted Argon2id credential storage
 - Separate adult advertising consent and shop-rule acceptance
 - Legal, privacy, and unofficial-product notices inside the launcher
 
 ## Getting started
 
-1. Download `KloorLauncher-1.2.1.exe`.
+1. Download `KloorLauncher-1.3.1.exe`.
 2. Open the file.
 3. Sign in with the Microsoft account that owns Minecraft: Java Edition.
-4. Create or select an installation.
-5. Press **Play**.
+4. Create a KloorLauncher username and a unique 15–128-character Kloor password to use Friends and earn Kloor Credits.
+5. Create or select an installation.
+6. Press **Play**.
 
 KloorLauncher automatically installs the compatible Eclipse Temurin Java runtime when it is missing.
 
