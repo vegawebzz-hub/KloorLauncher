@@ -1,3 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 *.exe binary
+KloorLauncher-1.9.3.exe filter=lfs diff=lfs merge=lfs -text
